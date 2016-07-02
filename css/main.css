@@ -98,10 +98,10 @@ textarea {
 }
 body{
     color: #757575;
-    background: url('../images/bg-1.jpg') no-repeat center center fixed;
+    /**background: url('../images/bg-1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    min-width: 1000px;
+    min-width: 1000px;**/
 }
 .side-bar-head{
     background-color: #333;
@@ -123,11 +123,15 @@ body{
     float: right;
     background: #fff;
     min-height: 100%;
+    z-index: 10;
+    position: relative;
 }
 .left-side-bar{
     width: 70%;
     border-top: solid 10px #333;
     float: left;
+    z-index: 10;
+    position: relative;
 }
 .left-side-body{
     padding: 15px;
@@ -179,4 +183,24 @@ body{
     text-align: center;
     font-family: cursive;
     font-size: 12px;
+}
+
+
+
+img.bg {
+  min-height: 100%;
+  min-width: 700px;
+  width: 70%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
 }
