@@ -200,9 +200,43 @@ img.bg {
   z-index: 0;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
+
+@media screen and (max-width: 1000px) { /* Specific to this particular image */
+    body{
+        width:auto;
+        min-width: auto;
+    }
+    img.bg {
+      height: 100%;
+      width: 100%;
+      height: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+    
+    
+    .right-side-bar{
+        width: 100%;
+        float: right;
+        background: #fff;
+        z-index: 10;
+        position: relative;
+        min-width: auto;
+    }
+    .left-side-bar{
+        width: 100%;
+        float: left;
+        z-index: 10;
+        position: relative;
+        border-top: none;
+        min-width: auto;
+    }
+    .left-side-bar-body {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
 }
