@@ -207,13 +207,14 @@ img.bg {
         min-width: auto;
     }
     img.bg {
-      height: 100%;
-      width: 100%;
-      height: auto;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 0;
+        height: 100%;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        min-width: auto;
     }
     
     
