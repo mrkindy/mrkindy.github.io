@@ -108,7 +108,7 @@ body{
     padding: 10px;
     color: #fff;
     text-align: center;
-    
+
 }
 .side-bar-image img{
     width: 100%;
@@ -175,7 +175,7 @@ body{
     width: 495px;
     text-align: center;
     margin: auto;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 .left-side-bar-body h2{
     font-family: 'Baloo Da', cursive;
@@ -200,7 +200,11 @@ img.bg {
   z-index: 0;
 }
 
-
+.ibrahim_abotaleb_image{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
 @media screen and (max-width: 1000px) { /* Specific to this particular image */
     body{
         width:auto;
@@ -216,8 +220,8 @@ img.bg {
         z-index: 0;
         min-width: auto;
     }
-    
-    
+
+
     .right-side-bar{
         width: 100%;
         float: right;
@@ -238,6 +242,6 @@ img.bg {
         width: 100%;
         text-align: center;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
